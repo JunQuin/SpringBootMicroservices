@@ -28,4 +28,6 @@ public class Producto implements Serializable {
     @Column(name = "created_at")
     @Temporal(TemporalType.DATE)
     private Date createAt;
+
+    private Integer port;
 }

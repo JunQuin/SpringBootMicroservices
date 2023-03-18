@@ -7,6 +7,5 @@ import java.util.List;
 public interface IProductoService {
 
     public List<Producto> findAll();
-
     public Producto findByID(Long id);
 }
