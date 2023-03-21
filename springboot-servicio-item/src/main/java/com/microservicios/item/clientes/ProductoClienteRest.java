@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.microservicios.item.models.Producto;
 
-@FeignClient(name = "microservio-productos")
+@FeignClient(name = "microservicio-productos")
 public interface ProductoClienteRest {
 
     @GetMapping("/listar")

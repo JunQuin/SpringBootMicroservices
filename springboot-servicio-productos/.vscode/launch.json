@@ -7,7 +7,14 @@
             "request": "launch",
             "mainClass": "com.microservicios.productos.ProductosApplication",
             "projectName": "springboot-servicio-productos",
-            "preLaunchTask": "compilacion-satanica"
+            // "preLaunchTask": "compilacion-satanica"
+        },
+        {
+            "type": "java",
+            "name": "Runnin in the 90's",
+            "request": "launch",
+            "mainClass": "com.microservicios.productos.ProductosApplication",
+            "projectName": "springboot-servicio-productos",
         }
     ]
 }

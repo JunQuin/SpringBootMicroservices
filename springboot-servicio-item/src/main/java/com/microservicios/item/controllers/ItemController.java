@@ -27,7 +27,7 @@ public class ItemController {
     private static final Logger LOGGER = LogManager.getLogger(ItemController.class.getName()); 
     private static final Marker DEV_MESSAGE = MarkerManager.getMarker("DEV_MESSAGE");
     
-    @GetMapping(value="/listar")
+    @GetMapping("/listar")
     public List<Item> listar(){
         LOGGER.log(Level.INFO, DEV_MESSAGE, "Recurso utilizado: /listar");
         return itemService.findAll();

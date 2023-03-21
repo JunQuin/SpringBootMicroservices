@@ -31,7 +31,7 @@ public class ItemServiceImpl implements ItemService {
     public List<Item> findAll() {
         LOGGER.log(Level.INFO, DEV_MESSAGE, "serviceRestTemplate.findAll()");
         List<Producto> productos = Arrays
-                .asList(clienteRest.getForObject("http://microservio-productos/listar", Producto[].class));
+                .asList(clienteRest.getForObject("http://microservicio-productos/listar", Producto[].class));
         return productos.stream().map(p -> new Item(p, 1)).collect(Collectors.toList());
     }
 
@@ -40,7 +40,7 @@ public class ItemServiceImpl implements ItemService {
         LOGGER.log(Level.INFO, DEV_MESSAGE, "serviceRestTemplate.findById()");
         Map<String, String> pathVariables = new HashMap<String, String>();
         pathVariables.put("id",id.toString());
-        Producto producto = clienteRest.getForObject("http://microservio-productos/listar/{id}", Producto.class, pathVariables);
+        Producto producto = clienteRest.getForObject("http://microservicio-productos/listar/{id}", Producto.class, pathVariables);
         return new Item(producto, cantidad);
     }
 

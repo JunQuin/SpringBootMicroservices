@@ -1,2 +1,0 @@
-spring.application.name=microservio-productos
-server.port=5008
