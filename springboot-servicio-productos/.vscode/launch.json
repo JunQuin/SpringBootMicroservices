@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Satanic Productos Service",
+            "request": "launch",
+            "mainClass": "com.microservicios.productos.ProductosApplication",
+            "projectName": "springboot-servicio-productos",
+            // "preLaunchTask": "compilacion-satanica"
+        },
+        {
+            "type": "java",
+            "name": "Runnin in the 90's",
+            "request": "launch",
+            "mainClass": "com.microservicios.productos.ProductosApplication",
+            "projectName": "springboot-servicio-productos",
+        }
+    ]
+}

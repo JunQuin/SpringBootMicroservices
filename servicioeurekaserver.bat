@@ -1,0 +1,1 @@
+cd C:\SpringBoot\SpringBootMicroservices\springboot-servicio-eureka-server\target & %JAVA_HOME%/bin/java.exe -jar springboot-servicio-eureka-server-0.0.1-SNAPSHOT.jar
