@@ -1,0 +1,9 @@
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\controllers\ItemController.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\clientes\ProductoClienteRest.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\models\Item.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\models\Producto.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\service\ItemServiceFeign.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\ItemApplication.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\service\ItemService.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\service\ItemServiceImpl.java
+C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\src\main\java\com\microservicios\item\AppConfig.java
