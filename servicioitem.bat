@@ -1,0 +1,1 @@
+cd C:\SpringBoot\SpringBootMicroservices\springboot-servicio-item\target & %JAVA_HOME%/bin/java.exe -jar springboot-servicio-item-0.0.1-SNAPSHOT.jar
