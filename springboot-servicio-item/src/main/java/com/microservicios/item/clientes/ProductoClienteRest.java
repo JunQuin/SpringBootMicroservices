@@ -12,8 +12,8 @@ import com.microservicios.item.models.Producto;
 public interface ProductoClienteRest {
 
     @GetMapping("/listar")
-    public List<Producto> listar();
+    List<Producto> listar();
     
     @GetMapping("/listar/{id}")
-    public Producto detalle(@PathVariable Long id);
+    Producto detalle(@PathVariable Long id);
 }

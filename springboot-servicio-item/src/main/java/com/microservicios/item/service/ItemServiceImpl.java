@@ -1,9 +1,6 @@
 package com.microservicios.item.service;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.Level;
@@ -31,7 +28,7 @@ public class ItemServiceImpl implements ItemService {
     public List<Item> findAll() {
         LOGGER.log(Level.INFO, DEV_MESSAGE, "serviceRestTemplate.findAll()");
         List<Producto> productos = Arrays
-                .asList(clienteRest.getForObject("http://microservicio-productos/listar", Producto[].class));
+                .asList(Objects.requireNonNull(clienteRest.getForObject("http://microservicio-productos/listar", Producto[].class)));
         return productos.stream().map(p -> new Item(p, 1)).collect(Collectors.toList());
     }
 

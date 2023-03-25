@@ -12,5 +12,5 @@ public class ProductosApplication {
         SpringApplication.run(ProductosApplication.class, args);
     }
 
-    private static final Logger LOGGER = LogManager.getLogger(ProductosApplication.class.getName()); //LOGGER UTILIZADO PARA MOSTRAR MENSAJES
+    // private static final Logger LOGGER = LogManager.getLogger(ProductosApplication.class.getName()); //LOGGER UTILIZADO PARA MOSTRAR MENSAJES
 }

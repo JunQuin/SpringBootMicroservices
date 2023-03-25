@@ -6,6 +6,6 @@ import com.microservicios.item.models.Item;
 
 public interface ItemService {
     
-    public List<Item> findAll();
-    public Item findById(Long id, Integer cantidad);
+    List<Item> findAll();
+    Item findById(Long id, Integer cantidad);
 }

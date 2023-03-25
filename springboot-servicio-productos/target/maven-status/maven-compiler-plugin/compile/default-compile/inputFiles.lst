@@ -1,6 +1,6 @@
-C:\SpringBoot\SpringBootMicroservices\springboot-servicio-productos\src\main\java\com\microservicios\productos\controllers\ProductoController.java
-C:\SpringBoot\SpringBootMicroservices\springboot-servicio-productos\src\main\java\com\microservicios\productos\models\service\IProductoService.java
-C:\SpringBoot\SpringBootMicroservices\springboot-servicio-productos\src\main\java\com\microservicios\productos\models\service\ProductoServiceImpl.java
-C:\SpringBoot\SpringBootMicroservices\springboot-servicio-productos\src\main\java\com\microservicios\productos\ProductosApplication.java
-C:\SpringBoot\SpringBootMicroservices\springboot-servicio-productos\src\main\java\com\microservicios\productos\models\entity\Producto.java
-C:\SpringBoot\SpringBootMicroservices\springboot-servicio-productos\src\main\java\com\microservicios\productos\models\repository\ProductoRepository.java
+/home/junquin/IdeaProjects/SpringBootMicroservices/springboot-servicio-productos/src/main/java/com/microservicios/productos/models/entity/Producto.java
+/home/junquin/IdeaProjects/SpringBootMicroservices/springboot-servicio-productos/src/main/java/com/microservicios/productos/controllers/ProductoController.java
+/home/junquin/IdeaProjects/SpringBootMicroservices/springboot-servicio-productos/src/main/java/com/microservicios/productos/models/service/IProductoService.java
+/home/junquin/IdeaProjects/SpringBootMicroservices/springboot-servicio-productos/src/main/java/com/microservicios/productos/models/repository/ProductoRepository.java
+/home/junquin/IdeaProjects/SpringBootMicroservices/springboot-servicio-productos/src/main/java/com/microservicios/productos/ProductosApplication.java
+/home/junquin/IdeaProjects/SpringBootMicroservices/springboot-servicio-productos/src/main/java/com/microservicios/productos/models/service/ProductoServiceImpl.java

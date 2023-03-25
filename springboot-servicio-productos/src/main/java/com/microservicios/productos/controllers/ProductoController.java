@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.microservicios.productos.models.entity.Producto;
-import com.microservicios.productos.models.service.IProductoService;
+import com.microservicios.productos.service.IProductoService;
 
 @RestController
 public class ProductoController {
@@ -32,10 +32,7 @@ public class ProductoController {
     @GetMapping("/listar")
     public List<Producto> listarTodos(){
         LOGGER.log(Level.INFO, MY_MARKER, "Entró a listar todos");
-        return iProductoService.findAll().stream().map(producto -> {
-            producto.setPort(port);
-            return producto;
-        }).collect(Collectors.toList());
+        return iProductoService.findAll().stream().peek(producto -> producto.setPort(port)).collect(Collectors.toList());
     }
 
     @GetMapping("/listar/{id}")
