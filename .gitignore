@@ -4,11 +4,9 @@
 /springboot-servicio-eureka-server/target/
 /springboot-servicio-item/target/
 /springboot-servicio-productos/target/
-springboot-servicio-zuul-server/target/
+/springboot-servicio-zuul-server/target/
 
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
