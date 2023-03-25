@@ -7,5 +7,5 @@
 /dataSources/
 /dataSources.local.xml
 #IntelliJ IDE
-/.idea/httpRequests/
-/.idea/libraries/
+/httpRequests/
+/libraries/
