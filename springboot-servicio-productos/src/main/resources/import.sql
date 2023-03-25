@@ -97,4 +97,3 @@ insert into productos (nombre, precio, created_at) values ('Veal - Ground', 50.4
 insert into productos (nombre, precio, created_at) values ('Pork - Loin, Center Cut', 142.8, '2022-05-10');
 insert into productos (nombre, precio, created_at) values ('Horseradish - Prepared', 998.9, '2022-07-16');
 insert into productos (nombre, precio, created_at) values ('Bread - Roll, Whole Wheat', 739.0, '2022-06-26');
-insert into productos (nombre, precio, created_at) values ('Hummus - Spread', 743.3, '2022-06-15');
